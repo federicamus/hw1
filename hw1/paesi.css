@@ -1,0 +1,71 @@
+#elenco-paesi {
+    padding-top: 5em;
+    border-top: 1px solid black;
+}
+
+.paesi-testo {
+    font-size: 20px;
+    width: 65%;
+    margin-bottom: 5em;
+}
+
+.paesi-testo h1 {
+    font-family: "Brandon Grotesque Bold";
+    font-size: 38px;
+}
+
+.paesi-tab {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 5em;
+    width: 100%;
+}
+
+.paesi-link {
+    font-size: 20px;
+    padding: 0.5em;
+    border: 1px solid black;
+    width: 12em;
+    height: 4em;
+    text-align: center;
+    padding-top: 2em;
+
+    -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.paesi-link:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+    .paesi-link {
+        font-size: 14px;
+    }
+}
+
+.paesi-newsletter {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #fcfadc;
+    margin-bottom: -6em;
+}
+
+.paesi-newsletter p {
+    font-size: 25px;
+}
+
+.paesi-newsletter a {
+    color: black;
+    font-family: "Brandon Grotesque Bold";
+    border: 1px solid black;
+    width: fit-content;
+    padding: 1em;
+    height: fit-content;
+    margin-top: 1em;
+}

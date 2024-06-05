@@ -1,0 +1,233 @@
+.book-view {
+    width: 100%;
+    margin-bottom: 4em;
+}
+
+#book-container {
+    padding-top: 4em;
+    border-top: 1px solid black;
+}
+
+
+.book-tab {
+    display: flex;
+}
+
+.book-img {
+    height: 400px;
+    width: 202px;
+}
+
+.book-view-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+    width: 100%;
+}
+
+.book-view-author {
+    font-family: "Brandon Grotesque Bold";
+    color: gray;
+    font-size: 25px;
+    margin-right: 20em;
+}
+
+.book-view-title {
+    font-family: "Brandon Grotesque Bold";
+    text-transform: uppercase;
+    margin-top: -0.7em;
+    font-size: 35px;
+    margin-bottom: 2em;
+}
+
+.book-view-testo {
+    border-left: 1px solid black;
+    padding-left: 1.5em;
+}
+
+.book-view-link {
+    margin-top: 3em;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 0.5em;
+    font-family: "Brandon Grotesque Bold";
+}
+
+.book-view-description {
+    margin-top: 3em;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.book-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.like-button {
+    height: 2em;
+    width: 2em;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .book-view {
+        width: 50%;
+    }
+
+    .like-button {
+        margin-left: -80%;
+    }
+}
+
+#review {
+    padding-top: 4em;
+    background-color: rgb(213 231 239);
+    padding: 2em;
+}
+
+
+#review-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.review-tab {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-username {
+    font-family: "Brandon Grotesque Bold";
+    font-size: 2em;
+}
+
+.review-text {
+    margin-left: 1em;
+    font-size: 1.5em;
+    margin-top: 0.3em;
+    width: 70em;
+}
+
+.review-buttons {
+    display: flex;
+    margin-top: 0.6em;
+}
+
+.review-buttons input {
+    border-radius: 10px;
+    border-color: black;
+    font-family: "Tiempos Text Regular", serif;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 0.5em;
+    height: fit-content;
+}
+
+
+#modale-modifiedReview.hidden {
+    display: none;
+}
+
+#modale-modifiedReview {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 100vh;
+    width: 100vw;
+    
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-container {
+    width: 85%;
+    background-color: white;
+    padding: 3em;
+}
+
+.review-container .exit-button {
+    float: right;
+    margin-top: -2em;
+    margin-right: -2.3em;
+}
+
+
+#modifiedReview-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 1.2em;
+}
+
+.add-cart {
+    width: fit-content;
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 3em;
+    padding: 0.8em;
+    font-family: "Brandon Grotesque Bold";
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.add-cart img {
+    height: 1.8em;
+    margin-left: 0.5em;
+} 
+
+.add-cart:hover {
+    color: gray;
+}
+
+#search-input {
+    width: 80%;
+    border-width: 0px;
+    font-family: "Tiempos Text Regular", serif;
+    font-size: 20px;
+}
+
+#search-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-button {
+    border-width: 0px;
+    font-family: "Tiempos Text Regular", serif;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.cancella-button {
+    border-width: 0px;
+    font-family: "Tiempos Text Regular", serif;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.exit-button {
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0.6em 1em;
+    border: none;
+    font-family: "Brandon Grotesque Bold";
+    font-size: 18px;
+    background-color: white;
+}

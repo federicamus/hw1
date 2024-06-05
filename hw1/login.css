@@ -1,0 +1,143 @@
+@import url(https://db.onlinewebfonts.com/c/1b3f9cb78376a36884f3908f37a42c91?family=Tiempos+Text+Regular);
+@import url(https://db.onlinewebfonts.com/c/4c40c7f27503517082e3857518913bab?family=Brandon+Grotesque+Bold);
+
+
+@font-face {
+    font-family: "Tiempos Text Regular";
+    src: url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.eot");
+    src: url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.svg#Tiempos Text Regular")format("svg");
+}
+
+@font-face {
+    font-family: "Brandon Grotesque Bold";
+    src: url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.eot");
+    src: url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.svg#Brandon Grotesque Bold")format("svg");
+}
+
+body {
+    margin: 0;
+    font-family: "Tiempos Text Regular", serif;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: #e6f2fd;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+#login-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5em;
+}
+
+.logo-img {
+    height: 36px;
+}
+
+
+#form-box {
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+#registration-box {
+    margin-left: 25em;
+    margin-top: 4em;
+}
+
+#login_form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.highlight {
+    font-family: "Brandon Grotesque Bold";
+}
+
+#login_form input[type="submit"] {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5em;
+    font-family: "Tiempos Text Regular", serif;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#login_form input[type="submit"]:hover {
+    color: gray;
+}
+
+.registration-button {
+    font-family: "Tiempos Text Regular", serif;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5em;
+    color: black;
+    border: 1px solid black;
+}
+
+.username, .password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+#login_form label {
+    font-family: "Brandon Grotesque Bold";
+}
+
+#login_form input {
+    width: 50%;
+    margin-top: 0.5em;
+    height: 3em;
+    border: 1px solid #cacaca;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+    font-family: "Tiempos Text Regular", serif;
+    margin-bottom: 0.3em;
+}
+
+.input-format {
+    border-color:black;
+    width: 20em;
+    height: 2.5em;
+    border-color: white;
+    margin-top: 0.5em;
+}
+
+.hidden {
+    display: none;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.errore_data {
+    color: red;
+    margin-bottom: 1em;
+    margin-top: -1em;
+}
+
+
+
+

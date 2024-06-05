@@ -1,0 +1,258 @@
+#carrello {
+    border-top: 1px solid black;
+    padding-top: 4em;
+    background-color: #fdf9e6;
+    margin-bottom: -200px;
+    padding-bottom: 8em;
+}
+
+.carrello-title {
+    margin-top: 0px;
+    font-family: "Brandon Grotesque Bold";
+    font-size: 38px;
+}
+
+#cart-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.libro-format {
+    display: flex;
+    width: 19em;
+    margin-top: 3em;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.libro-format:hover {
+    color: grey;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.cop-libro {
+    margin-right: 20px;
+}
+
+.img-libro {
+    height: 200px;
+    width: 101px;
+}
+
+.autore-libro {
+    font-family: "Brandon Grotesque Bold";
+    opacity: .7;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+}
+
+.titolo-libro {
+    font-family: "Brandon Grotesque Bold";
+    text-transform: uppercase;
+}
+
+
+
+.cart-text {
+    margin-top: 3em;
+}
+
+.cart-text img {
+    cursor: pointer;
+    height: 1.2em;
+}
+
+#subtotale {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1em 0px;
+    height: 2em;
+    margin-top: 4em;
+}
+
+#subtotale div {
+    float: right;
+    font-family: "Brandon Grotesque Bold";
+    font-size: 1.2em;
+}
+  
+#proceed_order {
+    float: right;
+    width: fit-content;
+    padding: 1em;
+    border: 2px solid black;
+    font-family: "Brandon Grotesque Bold";
+    margin-top: 3em;
+    cursor: pointer;
+}
+
+#proceed_order:hover {
+    color: #fdf9e6;
+    background-color: black;
+}
+
+#proceed_order span {
+    margin-left: 0.5em;
+}
+
+#billing {
+    background-color: #fdf9e6;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: -200px;
+}
+
+#billing h2 {
+    font-family: "Brandon Grotesque Bold";
+    border-bottom: 1px solid black;
+}
+
+#billing legend {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+}
+
+.errore_data {
+    color: red;
+    margin-bottom: 1em;
+    margin-top: -1em;
+}
+
+.order_fields {
+    margin-bottom: 1em;
+}
+
+.order-input {
+    width: 50%;
+    margin-top: 0.5em;
+    height: 3em;
+    border: 1px solid #cacaca;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+    font-family: "Tiempos Text Regular", serif;
+}
+
+.order-input:focus {
+    outline: none;
+}
+
+.submit-button {
+    font-family: "Brandon Grotesque Bold";
+    border: 2px solid black;
+    padding: 1em;
+    background-color: #fdf9e6;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: black;
+    color: #fdf9e6;
+}
+
+
+#payment {
+    background-color: #fdf9e6;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: -200px;
+}
+
+#payment h2 {
+    font-family: "Brandon Grotesque Bold";
+    border-bottom: 1px solid black;
+}
+
+.date-input {
+    width: 5%;
+    margin-top: 0.5em;
+    height: 3em;
+    border: 1px solid #cacaca;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+    font-family: "Tiempos Text Regular", serif;
+}
+
+#order-checking {
+    background-color: #fdf9e6;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    margin-bottom: -200px;
+}
+
+#order-checking h2 {
+    font-family: "Brandon Grotesque Bold";
+    border-bottom: 1px solid black;
+}
+
+#order-summary {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#order-summary h2 {
+    font-family: "Brandon Grotesque Bold";
+}
+
+.indirizzo-spedizione, .metodo-pagamento {
+    width: 35%;
+}
+
+.indirizzo-spedizione h2 img {
+    margin-left: 0.5em;
+    height: 1.2em;
+    margin-bottom: -0.2em;
+    cursor: pointer;
+}
+
+
+.card_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_info div {
+    margin-top: 0.6em;
+}
+
+.delete_card {
+    height: 1.3em;
+    margin-top: 0.6em;
+    cursor: pointer;
+}
+
+.add_card {
+    font-family: "Brandon Grotesque Bold";
+    text-decoration: underline;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#order-checking .submit-button {
+    margin-top: 2em;
+    float: right;
+}
+
+
+#shipping {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1em;
+    margin-top: 3em;
+}
+
+#shipping span {
+    float: right;
+    font-family: "Brandon Grotesque Bold";
+    font-size: 1.2em;
+}

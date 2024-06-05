@@ -1,0 +1,68 @@
+#eventi-conclusi {
+    background-color: #ebf3ef;
+    padding-top: 4em;
+    border-top: 1px solid black;
+    padding-bottom: 4em;
+}
+
+#eventi-conclusi h1 {
+    font-family: "Brandon Grotesque Bold";
+    font-size: 35px;
+    margin-bottom: 3em;
+    margin-top: -1em;
+}
+
+.eventi-info-tab {
+    display: flex;
+}
+
+.eventi-left-side {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-right: 3em;
+}
+
+.eventi-left-side span {
+    font-family: "Brandon Grotesque Bold";
+    font-size: 30px;
+    margin-bottom: 1.5em;
+}
+
+.eventi-left-side div {
+    font-family: "Brandon Grotesque Bold";
+    font-size: 15px;
+    color: gray;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 0.3em 1.5em;
+}
+
+.eventi-right-side {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 3em;
+    border-left: 1px solid black;
+}
+
+.eventi-conclusi-title {
+    font-family: "Brandon Grotesque Bold";
+    font-size: 30px;
+}
+
+.eventi-right-side span {
+    font-family: "Brandon Grotesque Bold";
+    font-size: 20px;
+    color: gray;
+}
+
+#prossimi-eventi {
+    margin-top: 5em;
+    margin-bottom: -7em;
+}
+
+.eventi-link {
+    color: black;
+    font-family: "Brandon Grotesque Bold";
+}

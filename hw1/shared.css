@@ -1,0 +1,271 @@
+@import url(https://db.onlinewebfonts.com/c/1b3f9cb78376a36884f3908f37a42c91?family=Tiempos+Text+Regular);
+@import url(https://db.onlinewebfonts.com/c/4c40c7f27503517082e3857518913bab?family=Brandon+Grotesque+Bold);
+@import url(https://db.onlinewebfonts.com/c/544da55955a950deb15d6a7536c4da34?family=Brandon+Grotesque+Regular);
+
+@font-face {
+    font-family: "Tiempos Text Regular";
+    src: url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.eot");
+    src: url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.svg#Tiempos Text Regular")format("svg");
+}
+
+@font-face {
+    font-family: "Brandon Grotesque Bold";
+    src: url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.eot");
+    src: url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.svg#Brandon Grotesque Bold")format("svg");
+}
+
+@font-face {
+    font-family: "Brandon Grotesque Regular";
+    src: url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.eot");
+    src: url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.svg#Brandon Grotesque Regular")format("svg");
+}
+
+body {
+    margin: 0;
+    font-family: "Tiempos Text Regular", serif;
+    font-size:1em;
+    font-weight: 100;
+}
+
+header {
+    height: fit-content;
+    padding-top: 2em;
+    background-color: #fdfeff;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+.container {
+    padding-right: 10rem;
+    padding-left: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    padding-bottom: 2.5em;
+}
+
+.logo {
+    margin-top: -0.8em;
+    margin-right: 2em;
+}
+
+.logo-img {
+    height: 2.25em;
+}
+
+.nav-options {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.menu-img {
+    width: 1.3em;
+    height: 1.5em;
+    cursor: pointer;
+
+}
+
+#lateral-menu-box {
+    display: none;
+}
+
+#lateral-menu {
+    visibility: hidden;
+}
+
+@media (max-width: 1000px) {
+    .nav-options {
+        display: none;
+    }
+
+
+    #lateral-menu-box {
+        display: block;
+    }
+
+    #lateral-menu {
+        position: absolute;
+        width: 20%;
+        margin-left: -15%;
+        overflow: auto;
+        background-color: white;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-top: 1px solid black;
+        z-index: 1; 
+        visibility: hidden;
+        opacity: 0;
+    }  
+    
+    #lateral-menu-box:hover #lateral-menu {
+        transition: .5s;
+        visibility: visible;
+        opacity: 1;
+      }
+    
+      #lateral-menu a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-bottom: 1px solid black;
+      }
+    
+      #lateral-menu a:hover {
+        background-color: black;
+        color: white;
+      }
+    
+}
+
+
+
+
+
+.nav-item {
+    font-size: 1.25em;
+}
+
+.cerca {
+    width: 1em;
+    cursor: pointer;
+}
+
+.profile {
+    width: 2em;
+    margin-top: -0.5em;
+    cursor: pointer;
+}
+
+.profile {
+    position: relative;
+  }
+
+  #menu {
+    position: absolute;
+    width: 160px;
+    overflow: auto;
+    background-color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    z-index: 1; 
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .nav-item:hover #menu {
+    transition: .5s;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid black;
+  }
+
+  #menu a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .carrello-icona {
+    margin-top: -0.2em;
+    height: 1.4em;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: #f3f5f5;
+    padding-top: 80px;
+    height: 400px;
+    font-size: 13.6px;
+}
+
+@media (max-width: 500px) {
+    footer {
+        height: 1300px;
+    }
+}
+
+.footer-format {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1000px) {
+    .footer-format {
+        flex-direction: column;
+    }
+}
+
+.footer-tab {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .footer-tab {
+        flex-direction: column;
+    }
+}
+
+.footer-column {
+    width: 160px;
+}
+
+.footer-title {
+    font-size: large;
+    font-family: "Brandon Grotesque Bold";    
+    padding-top: 0px;
+}
+
+
+.hidden {
+    display: none;
+}
